@@ -1,8 +1,8 @@
 	/*	
-		  TASK: HPS
+		TASK: 
 	  	LANG: C++
 	  	author: TRAN MINH HIEU
-		  Handle: at0miccat
+		Handle: at0miccat
 	  	
 	 */
 	#include "bits/stdc++.h"
@@ -19,11 +19,11 @@
 		
 
 		int n; 
-		cin >> n;
+		fin >> n;
 		vector <pair<int, int>> t(n);
 		int hps[102] = {0};
 		for (auto &i : t){
-			cin >> i.F >> i.S;
+			fin >> i.F >> i.S;
 			hps[i.F * 10 + i.S]++;
 		}
 
@@ -38,6 +38,6 @@
 				ans = max(ans, cnt);
 			}
 		}
-		cout << ans << "\n";
+		fout << ans << "\n";
 		return 0;
 	}
