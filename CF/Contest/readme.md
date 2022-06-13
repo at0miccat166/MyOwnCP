@@ -1,1 +1,1 @@
-#Storing my codes in CF contests.
+# Store my codes in CF contests.
